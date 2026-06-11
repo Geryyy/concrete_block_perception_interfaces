@@ -10,6 +10,7 @@ ROS 2 interfaces for the perception providers in the concrete-block stack — sh
 | `srv` | `TrackDetections` | per-frame detection tracker call |
 | `srv` | `SegmentAtPoint` | on-demand YOLO segmentation at a 2D point |
 | `srv` | `RegisterBlock` | single-shot ICP registration |
+| `srv` | `ExtractMaskCutout` | mask-to-cloud cutout extraction for coarse pose |
 | `action` | `RegisterBlock` | long-running ICP registration with progress feedback |
 
 For the *persistent* block-state / planning-scene API used by motion planning and the BT, see [concrete_block_world_model_interfaces](../concrete_block_world_model_interfaces/).

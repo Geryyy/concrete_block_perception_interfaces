@@ -13,6 +13,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/RegisterBlock.action"
   "msg/TrackedDetection.msg"
   "msg/TrackedDetectionArray.msg"
+  "srv/ExtractMaskCutout.srv"
   "srv/RegisterBlock.srv"
   "srv/SegmentAtPoint.srv"
   "srv/TrackDetections.srv"

@@ -1,0 +1,7 @@
+# ExtractMaskCutout.srv
+sensor_msgs/Image       mask
+sensor_msgs/PointCloud2 cloud
+---
+bool                    success
+string                  reason
+sensor_msgs/PointCloud2 cutout_cloud
